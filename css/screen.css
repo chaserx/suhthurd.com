@@ -87,13 +87,15 @@ ul.posts {
 }
 
 .title {
-  color: #a00;
+  color: #000;
   font-weight: bold;
   margin-bottom: 2em;
+  font-size: 2em;
+  line-height:1em;
 }
 
   .site .title a {
-    color: #a00;
+    color: #000;
     text-decoration: none;
   }
 
@@ -154,7 +156,7 @@ ul.posts {
 
   /* standard */
 
-  #post pre {
+  #post pre, .posts pre {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
@@ -165,26 +167,26 @@ ul.posts {
     margin-left: 1.35em;
   }
 
-  #post code {
+  #post code, .posts code {
     border: 1px solid #ddd;
     background-color: #eef;
     font-size: 85%;
     padding: 0 .2em;
   }
 
-    #post pre code {
+    #post pre code, .posts pre code {
       border: none;
     }
 
   /* terminal */
 
-  #post pre.terminal {
+  #post pre.terminal, .posts pre.terminal {
     border: 1px solid black;
     background-color: #333;
     color: white;
   }
 
-  #post pre.terminal code {
+  #post pre.terminal code, .posts pre.terminal code {
     background-color: #333;
   }
 
@@ -195,3 +197,58 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+.postcontent{
+  padding-left:1em;
+}
+#more{
+  text-align:right;
+}
+span#subheading{
+  font-size:0.5em;
+  font-weight:normal;
+}
+
+#header
+{
+	font: 100% Helvetica, Arial, Verdana, sans-serif;
+	color: #000;
+  margin-bottom: 2em;
+  line-height:1.5em;
+}
+#header h1 {font-size:300%;}
+#header h1 { margin: 0; font-weight: normal; }
+.byline{
+  font-size:80%;
+  line-height:1em;
+}
+#header h1 a:link, #header h1 a:visited{
+  text-decoration:none;
+  color:#000;
+}
+#header h1 a:hover, #header h1:active{
+  text-decoration:none;
+  color:#000;
+}
+h2.posttitle a:link, h2.posttitle a:visited{
+  text-decoration:none;
+  font-size:120%;
+  color: #000;
+}
+h2.posttitle a:hover, h2.posttitle a:active{
+  color: #8085C1;
+}
+div.posts{
+  margin-bottom: 20px;
+}
+div.posts p a, div#post p a{
+  text-decoration:none;
+  color: #8085C1;
+}
+div.posts p a:hover, div.posts p a:active, div#post p a:hover, div#post p a:active{
+  text-decoration:underline;
+  color: #8085C1;
+}
+div#more, div#controls{
+  border-top: 4px solid #eee;
+}

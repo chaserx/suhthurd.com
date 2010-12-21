@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html lang="en">
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta charset="utf-8" />
    <title>{{ page.title }}</title>
-   <meta name="author" content="Tom Preston-Werner" />
-   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" />
+   <meta name="description" content="Here is the description of your project." />
+   <meta name="author" content="R. Chase Southard" />
+   <meta name="copyright" content="Copyright R. Chase Southard 2010. All Rights Reserved." />
+   <meta name="generator" content="jekyll">
+   
+   <meta name="google-site-verification" content="" />
+
+
+   <link rel="shortcut icon" href="/images/favicon.png"/>
+   <!-- This is the traditional favicon.
+   	 - size: 16x16 or 32x32
+   	 - transparency is OK
+   	 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+   
+   <link rel="apple-touch-icon" href="/images/custom_icon.png"/>
+   <!-- The is the icon for iOS's Web Clip.
+   	 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+   	 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+   	 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+   
+
 
    <!-- syntax highlighting CSS -->
    <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
@@ -13,70 +32,60 @@
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 
    <!-- Typekit -->
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+   
+   
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+ <script src="_/js/functions.js"></script>
 </head>
 <body>
 
-<!-- ClickTale Top part -->
-<script type="text/javascript">
-var WRInitTime=(new Date()).getTime();
-</script>
-<!-- ClickTale end of Top part -->
-
 <div class="site">
-  <div class="title">
-    <a href="/">Tom Preston-Werner</a>
-    <a class="extra" href="/">home</a>
+  <div id="header">
+    <h1><strong><a href="/index.html">Southard => Suh&rsquo; thurd</a></strong><br /><span id="subheading">english is hard.</span></h1>
   </div>
+  
   
   {{ content }}
   
   <div class="footer">
     <div class="contact">
       <p>
-        Tom Preston-Werner<br />
-        Cofounder of <a href="http://github.com/">GitHub</a><br />
-        tom@mojombo.com
+        Chase Southard<br />
+        likes to build <a href="http://example.com/">stuff</a><br />
+        chase@suhthurd.com
       </p>
     </div>
     <div class="contact">
       <p>
-        <a href="http://github.com/mojombo/">github.com/mojombo</a><br />
-        <a href="http://twitter.com/mojombo/">twitter.com/mojombo</a><br />
-        <a href="http://flickr.com/photos/mojombo/">flickr.com/photos/mojombo</a>
+        <a href="http://chasesouthard.com">chasesouthard.com</a><br />
+        <a href="http://github.com/mojombo/">github.com/chaserx</a><br />
+        <a href="http://twitter.com/mojombo/">twitter.com/southard</a>
       </p>
     </div>
-    <div class="rss">
-      <a href="http://feeds.feedburner.com/tom-preston-werner">
-        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-      </a>
+    <div class="contact">
+      <p>
+        an amalgam of <a href="http://example.com/">jekyll</a><br />
+        sinatra<br />
+        heroku
+      </p>
     </div>
   </div>
 </div>
 
-<a href="http://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
 
-<!-- ClickTale Bottom part -->
-<div id="ClickTaleDiv" style="display: none;"></div>
-<script type="text/javascript">
-if(document.location.protocol!='https:')
-  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb.js'%20type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-if(typeof ClickTale=='function') ClickTale(206,0.3,"www03");
-</script>
-<!-- ClickTale end of Bottom part -->
 
-<!-- Google Analytics -->
+
+
+<!-- Google Analytics 
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-6016902-1");
+<script type="text/javascript"> 
+var pageTracker = _gat._getTracker("UA-######-#");
 pageTracker._trackPageview();
 </script>
+-->
 <!-- Google Analytics end -->
 
 </body>

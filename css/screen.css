@@ -252,3 +252,9 @@ div.posts p a:hover, div.posts p a:active, div#post p a:hover, div#post p a:acti
 div#more, div#controls{
   border-top: 4px solid #eee;
 }
+#subfooter{
+  clear:both;
+  text-align:center;
+  margin:0 auto;
+  font-style:italic;
+}

@@ -279,3 +279,6 @@ div#more{
   text-decoration: underline;
   color:#000;
 }
+p#copyright{
+  font-size:50%;
+}

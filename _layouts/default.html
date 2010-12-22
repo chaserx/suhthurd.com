@@ -3,26 +3,17 @@
 <head>
    <meta charset="utf-8" />
    <title>{{ page.title }}</title>
-   <meta name="description" content="Here is the description of your project." />
+   <meta name="description" content="An experimental blog by Chase Southard. Nothing interesting here. Move along." />
    <meta name="author" content="R. Chase Southard" />
-   <meta name="copyright" content="Copyright R. Chase Southard 2010. All Rights Reserved." />
-   <meta name="generator" content="jekyll">
+   <meta name="copyright" content="Posts are Copyright R. Chase Southard 2010. All Rights Reserved." />
    
-   <meta name="google-site-verification" content="" />
+   <meta name="google-site-verification" content="Rp5p_TnBOnpef-GpmAuckIAyyMRYAuj6VzSk5N8zWJU" />
 
 
    <link rel="shortcut icon" href="/images/favicon.png"/>
-   <!-- This is the traditional favicon.
-   	 - size: 16x16 or 32x32
-   	 - transparency is OK
-   	 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+  
    
-   <link rel="apple-touch-icon" href="/images/custom_icon.png"/>
-   <!-- The is the icon for iOS's Web Clip.
-   	 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
-   	 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
-   	 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
-   
+   <link rel="apple-touch-icon" href="/images/custom_icon.png"/>   
 
 
    <!-- syntax highlighting CSS -->
@@ -33,9 +24,9 @@
 
    <!-- Typekit -->
    
-   
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
- <script src="/js/functions.js"></script>
+   <!-- jQuery and JS -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+   <script src="/js/functions.js"></script>
 </head>
 <body>
 
@@ -44,28 +35,28 @@
     <h1><strong><a href="/index.html">Southard => Suh&rsquo; thurd</a></strong><br /><span id="subheading">english is hard.</span></h1>
   </div>
   
-  
+  <!-- Liquid tag to pull from index, archive, or post views -->
   {{ content }}
   
   <div class="footer">
     <div class="contact">
       <p>
         Chase Southard<br />
-        likes to build <a href="http://example.com/">stuff</a><br />
-        chase@suhthurd.com
+        likes to build <a href="http://github.com/chaserx/">stuff</a><br />
+        <a href="http://twitter.com/southard" title="Southard on Twitter">@southard</a>
       </p>
     </div>
     <div class="contact">
       <p>
         <a href="http://chasesouthard.com">chasesouthard.com</a><br />
-        <a href="http://github.com/chaserx/">github.com/chaserx</a><br />
-        <a href="http://twitter.com/southard/">twitter.com/southard</a>
+        <a href="http://openlexington.org">openlexington.org</a><br />
+        <a href="http://kyrug.org">kyrug.org</a><br />
       </p>
     </div>
-    
-    <div id="subfooter">
-      an amalgam of <a href="http://github.com/mojombo/jekyll">jekyll</a> &middot; <a href="http://www.sinatrarb.com/" title="Sinatra">sinatra</a> &middot; <a href="http://www.heroku.com/" title="Heroku">heroku</a>
-    </div>
+  </div>
+  <div id="subfooter">
+    an amalgam of <a href="http://github.com/mojombo/jekyll">jekyll</a>, <a href="http://www.sinatrarb.com/" title="Sinatra">sinatra</a> &amp; <a href="http://www.heroku.com/" title="Heroku">heroku</a><br />
+    <p>All posts &copy; 2010 Chase Southard; <a href="http://github.com/chaserx/suhthurd.com">Source</a> is released under the MIT license</p>
   </div>
 </div>
 
@@ -73,16 +64,20 @@
 
 
 
-<!-- Google Analytics 
+<!-- Google Analytics -->
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-287272-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
-<script type="text/javascript"> 
-var pageTracker = _gat._getTracker("UA-######-#");
-pageTracker._trackPageview();
-</script>
--->
 <!-- Google Analytics end -->
 
 </body>

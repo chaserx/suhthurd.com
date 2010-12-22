@@ -200,6 +200,7 @@ ul.posts {
 
 .postcontent{
   padding-left:1em;
+  padding-right:1em;
 }
 #more{
   text-align:right;
@@ -236,7 +237,8 @@ h2.posttitle a:link, h2.posttitle a:visited{
   color: #000;
 }
 h2.posttitle a:hover, h2.posttitle a:active{
-  color: #8085C1;
+  /*color: #8085C1;*/
+  text-decoration:underline;
 }
 div.posts{
   margin-bottom: 20px;
@@ -249,12 +251,31 @@ div.posts p a:hover, div.posts p a:active, div#post p a:hover, div#post p a:acti
   text-decoration:underline;
   color: #8085C1;
 }
-div#more, div#controls{
+div#more{
   border-top: 4px solid #eee;
 }
 #subfooter{
   clear:both;
   text-align:center;
-  margin:0 auto;
+  margin:100px auto;
   font-style:italic;
+}
+#subfooter a:link, #subfooter a:visited, #subfooter a:hover, #subfooter a:active{
+  text-decoration:none;
+  color:#000;
+}
+#leftcontrol{
+  text-align:left;
+}
+#rightcontrol{
+  float:right; 
+  text-align:right;
+}
+#leftcontrol a:link, #leftcontrol a:visited, #rightcontrol a:link, #rightcontrol a:visited{
+  text-decoration: none;
+  color:#000;
+}
+#leftcontrol a:hover, #leftcontrol a:active, #rightcontrol a:hover, #rightcontrol a:active{
+  text-decoration: underline;
+  color:#000;
 }

@@ -4,3 +4,4 @@ permalink: date
 exclude:
   - config.ru
   - suhthurd.rb
+  - README.textile

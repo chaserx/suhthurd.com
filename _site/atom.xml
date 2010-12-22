@@ -4,7 +4,7 @@
  <title>Tom Preston-Werner</title>
  <link href="http://suhthurd.com/atom.xml" rel="self"/>
  <link href="http://suhthurd.com/"/>
- <updated>2010-12-22T11:25:31-05:00</updated>
+ <updated>2010-12-22T14:23:01-05:00</updated>
  <id>http://suhthurd.com/</id>
  <author>
    <name>Chase Southard</name>
@@ -19,7 +19,7 @@
    <id>http://suhthurd.com/init/2010/12/22/HelloWorld</id>
    <content type="html">&lt;p&gt;The obligatory &amp;#8220;Hello World&amp;#8221; post.&lt;/p&gt;
 &lt;p&gt;Blogging like a hacker using &lt;a href=&quot;http://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; to generate static pages. Deployed under &lt;a href=&quot;http://sinatrarb.com&quot;&gt;Sinatra&lt;/a&gt; and hosted on &lt;a href=&quot;http://heroku.com&quot;&gt;Heroku&lt;/a&gt; .&lt;/p&gt;
-&lt;p&gt;I have no idea how this will unfold.&lt;/p&gt;</content>
+&lt;p&gt;I have no idea how this will unfold, but that&amp;#8217;s the fun part.&lt;/p&gt;</content>
  </entry>
  
  

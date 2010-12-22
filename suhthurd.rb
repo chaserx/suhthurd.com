@@ -12,3 +12,15 @@ end
 get '/' do
   File.read('_site/index.html')
 end
+
+configure :production do
+
+   not_found do
+     File.read('_site/404.html')
+   end
+
+   error do
+     "Something really nasty happened.  We're on it!"
+   end
+
+ end

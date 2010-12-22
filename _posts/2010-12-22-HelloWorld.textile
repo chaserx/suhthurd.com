@@ -1,0 +1,12 @@
+---
+layout: post
+title: Well, Hello World.
+author: Chase Southard
+category: init
+---
+
+The obligatory "Hello World" post. 
+
+Blogging like a hacker using "Jekyll":http://github.com/mojombo/jekyll to generate static pages. Deployed under "Sinatra":http://sinatrarb.com and hosted on "Heroku":http://heroku.com .
+
+I have no idea how this unfold. 

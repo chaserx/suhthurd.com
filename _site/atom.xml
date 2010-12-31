@@ -4,7 +4,7 @@
  <title>Tom Preston-Werner</title>
  <link href="http://suhthurd.com/atom.xml" rel="self"/>
  <link href="http://suhthurd.com/"/>
- <updated>2010-12-29T15:56:02-05:00</updated>
+ <updated>2010-12-31T14:12:45-05:00</updated>
  <id>http://suhthurd.com/</id>
  <author>
    <name>Chase Southard</name>
@@ -13,10 +13,28 @@
 
  
  <entry>
+   <title>BOMTYCC</title>
+   <link href="http://suhthurd.com/2010/12/31/BOMTYCC.html"/>
+   <updated>2010-12-31T00:00:00-05:00</updated>
+   <id>http://suhthurd.com/2010/12/31/BOMTYCC</id>
+   <content type="html">&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;BOMTYCC&lt;/span&gt; (Bite Off More Than You Can Chew)&lt;/p&gt;
+&lt;p&gt;BOMTYCC. Powerful advice from &lt;a href=&quot;http://tom.preston-werner.com/&quot;&gt;Tom Preston-Werner&lt;/a&gt;, co-founder of &lt;a href=&quot;http://github.com&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I recently watched the &lt;a href=&quot;http://confreaks.net/videos/432-rubyconf2010-the-road-from-ruby-hacker-to-entrepreneur&quot;&gt;video&lt;/a&gt; of Tom&amp;#8217;s presentation from RubyConf 2010 entitled: &amp;#8220;The Road from Ruby Hacker to Entrepreneur&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;Tom outlines his journey from anonymous Ruby hacker to successful entrepreneur. A recurring theme to his journey was his willingness to &lt;span class=&quot;caps&quot;&gt;BOMTYCC&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Perhaps without realizing it, I&amp;#8217;ve been practicing &lt;span class=&quot;caps&quot;&gt;BOMTYCC&lt;/span&gt; too.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;BOMTYCC&lt;/span&gt; it &amp;#8230;&lt;/p&gt;
+&lt;p&gt;-  is an ethic.&lt;br /&gt;
+-  is a positive force behind learning.&lt;br /&gt;
+-  enables you to follow that little urge which says &amp;#8220;why not?&amp;#8221;&lt;br /&gt;
+-  makes building stuff fun.&lt;/p&gt;
+&lt;p&gt;On this last day of 2010, I hope to have more &lt;span class=&quot;caps&quot;&gt;BOMTYCC&lt;/span&gt; in the coming year. Perhaps, one more step in my own journey from biologist seduced by computers to a successful craftsman and maybe even entrepreneur.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>Well, Hello World.</title>
-   <link href="http://suhthurd.com/init/2010/12/22/HelloWorld.html"/>
+   <link href="http://suhthurd.com/2010/12/22/HelloWorld.html"/>
    <updated>2010-12-22T00:00:00-05:00</updated>
-   <id>http://suhthurd.com/init/2010/12/22/HelloWorld</id>
+   <id>http://suhthurd.com/2010/12/22/HelloWorld</id>
    <content type="html">&lt;p&gt;The obligatory &amp;#8220;Hello World&amp;#8221; post.&lt;/p&gt;
 &lt;p&gt;Blogging like a hacker using &lt;a href=&quot;http://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; to generate static pages. Deployed under &lt;a href=&quot;http://sinatrarb.com&quot;&gt;Sinatra&lt;/a&gt; and hosted on &lt;a href=&quot;http://heroku.com&quot;&gt;Heroku&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;I have no idea how this will unfold, but that&amp;#8217;s the fun part.&lt;/p&gt;

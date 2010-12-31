@@ -1,0 +1,30 @@
+---
+layout: post
+title: BOMTYCC
+author: Chase Southard
+categories: 
+  - learning
+  - entrepreneurship
+  - hacking
+---
+
+BOMTYCC (Bite Off More Than You Can Chew)
+
+BOMTYCC. Powerful advice from "Tom Preston-Werner":http://tom.preston-werner.com/, co-founder of "GitHub":http://github.com.
+
+I recently watched the "video":http://confreaks.net/videos/432-rubyconf2010-the-road-from-ruby-hacker-to-entrepreneur of Tom's presentation from RubyConf 2010 entitled: "The Road from Ruby Hacker to Entrepreneur". 
+
+Tom outlines his journey from anonymous Ruby hacker to successful entrepreneur. A recurring theme to his journey was his willingness to BOMTYCC. 
+
+Perhaps without realizing it, I've been practicing BOMTYCC too. 
+
+BOMTYCC it ...
+
+-  is an ethic.
+-  is a positive force behind learning.
+-  enables you to follow that little urge which says "why not?"
+-  makes building stuff fun. 
+
+On this last day of 2010, I hope to have more BOMTYCC in the coming year. Perhaps, one more step in my own journey from biologist seduced by computers to a successful craftsman and maybe even entrepreneur.
+
+

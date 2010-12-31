@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Suh' thurd
+title: Index
 ---
 
 <div id="home">
@@ -9,6 +9,9 @@ title: Suh' thurd
     {% for post in site.posts limit:3 %}
       <h2 class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <div class="postcontent">{{ post.content }}</div>
+      <div>
+        <p>&nbsp;</p>
+      </div>
     {% endfor %}
   </div>
   <div id="controls">

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Courage
+author: Chase Southard
+categories: 
+  - learning
+  - hacking
+  - quote
+---
+
+&quot;Success is not final, failure is not fatal: it is the courage to continue that counts.&quot; -Winston Churchill
+
+I really like this quote. What I especially like about it is the implication that failure is not a bad thing. You _will_ fail again and again. But, It's the courage to pick your ass up and try again that's most important. I'll continue to work diligently at my job. I'll continue to be wrong; to fail. I will, however, iterate towards improvement.
+

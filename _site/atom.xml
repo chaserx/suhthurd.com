@@ -4,13 +4,22 @@
  <title>Tom Preston-Werner</title>
  <link href="http://suhthurd.com/atom.xml" rel="self"/>
  <link href="http://suhthurd.com/"/>
- <updated>2010-12-31T14:12:45-05:00</updated>
+ <updated>2011-02-16T13:00:39-05:00</updated>
  <id>http://suhthurd.com/</id>
  <author>
    <name>Chase Southard</name>
    <email>chase@suhthurd.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Courage</title>
+   <link href="http://suhthurd.com/2011/02/16/Courage.html"/>
+   <updated>2011-02-16T00:00:00-05:00</updated>
+   <id>http://suhthurd.com/2011/02/16/Courage</id>
+   <content type="html">&lt;p&gt;&amp;quot;Success is not final, failure is not fatal: it is the courage to continue that counts.&amp;quot; -Winston Churchill&lt;/p&gt;
+&lt;p&gt;I really like this quote. What I especially like about it is the implication that failure is not a bad thing. You &lt;em&gt;will&lt;/em&gt; fail again and again. But, It&amp;#8217;s the courage to pick your ass up and try again that&amp;#8217;s most important. I&amp;#8217;ll continue to work diligently at my job. I&amp;#8217;ll continue to be wrong; to fail. I will, however, iterate towards improvement.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>BOMTYCC</title>

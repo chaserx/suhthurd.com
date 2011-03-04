@@ -1,0 +1,33 @@
+---
+layout: post
+title: Multiple Comparisions in R
+author: Chase Southard
+categories: 
+  - learning
+  - hacking
+  - R
+published: false
+---
+
+I've been after this for quite some time... how to determine a letter designation between groups using "R":http://www.r-project.org/.
+
+I ran across this package yesterday. Works well for single-factor data. 
+
+"multcompView":http://cran.r-project.org/web/packages/multcompView/ "PDF":http://cran.r-project.org/web/packages/multcompView/multcompView.pdf
+
+
+{% highlight r %}
+  multcompBoxplot(Response ~ Treatment, d,
+  horizontal=TRUE, compFn="TukeyHSD",
+  sortFn="mean", decreasing=TRUE,
+  plotList=list(boxplot=list(
+  fig=c(0, 0.75, 0, 1)),
+  multcompTs=list(fig=c(0.7, 0.85, 0, 1)),
+  multcompLetters=list(
+  fig=c(0.87, 0.97, 0.03, 0.98), fontsize=20,
+  fontface="bold") ) )
+{% endhighlight %}
+
+!http://suhthurd.com/images/lettersDesignations.png(boxplot with letters!)!
+
+

@@ -40,6 +40,25 @@
   
   <div class="posts">
     
+      <h2 class="posttitle"><a href="/2011/03/04/Multiple-Comparisons-in-R.html">Multiple Comparisions in R</a></h2>
+      <div class="postcontent"><p>I&#8217;ve been after this for quite some time&#8230; how to determine a letter designation between groups using <a href="http://www.r-project.org/">R</a>.</p>
+<p>I ran across this package yesterday. Works well for single-factor data.</p>
+<p><a href="http://cran.r-project.org/web/packages/multcompView/">multcompView</a> <a href="http://cran.r-project.org/web/packages/multcompView/multcompView.pdf"><span class="caps">PDF</span></a></p>
+<div class="highlight"><pre><code class="r">  multcompBoxplot<span class="p">(</span>Response ~ Treatment<span class="p">,</span> d<span class="p">,</span>
+  horizontal<span class="o">=</span><span class="kc">TRUE</span><span class="p">,</span> compFn<span class="o">=</span><span class="s">&quot;TukeyHSD&quot;</span><span class="p">,</span>
+  sortFn<span class="o">=</span><span class="s">&quot;mean&quot;</span><span class="p">,</span> decreasing<span class="o">=</span><span class="kc">TRUE</span><span class="p">,</span>
+  plotList<span class="o">=</span>list<span class="p">(</span>boxplot<span class="o">=</span>list<span class="p">(</span>
+  fig<span class="o">=</span>c<span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0.75</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">)),</span>
+  multcompTs<span class="o">=</span>list<span class="p">(</span>fig<span class="o">=</span>c<span class="p">(</span><span class="m">0.7</span><span class="p">,</span> <span class="m">0.85</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">)),</span>
+  multcompLetters<span class="o">=</span>list<span class="p">(</span>
+  fig<span class="o">=</span>c<span class="p">(</span><span class="m">0.87</span><span class="p">,</span> <span class="m">0.97</span><span class="p">,</span> <span class="m">0.03</span><span class="p">,</span> <span class="m">0.98</span><span class="p">),</span> fontsize<span class="o">=</span><span class="m">20</span><span class="p">,</span>
+  fontface<span class="o">=</span><span class="s">&quot;bold&quot;</span><span class="p">)</span> <span class="p">)</span> <span class="p">)</span>
+</code></pre>
+</div><p><img src="http://suhthurd.com/images/lettersDesignations.png" title="boxplot with letters!" alt="boxplot with letters!" /></p></div>
+      <div>
+        <p>&nbsp;</p>
+      </div>
+    
       <h2 class="posttitle"><a href="/2011/02/16/Courage.html">Courage</a></h2>
       <div class="postcontent"><p>&quot;Success is not final, failure is not fatal: it is the courage to continue that counts.&quot; -Winston Churchill</p>
 <p>I really like this quote. What I especially like about it is the implication that failure is not a bad thing. You <em>will</em> fail again and again. But, It&#8217;s the courage to pick your ass up and try again that&#8217;s most important. I&#8217;ll continue to work diligently at my job. I&#8217;ll continue to be wrong; to fail. I will, however, iterate towards improvement.</p></div>
@@ -59,20 +78,6 @@
 -  enables you to follow that little urge which says &#8220;why not?&#8221;<br />
 -  makes building stuff fun.</p>
 <p>On this last day of 2010, I hope to have more <span class="caps">BOMTYCC</span> in the coming year. Perhaps, one more step in my own journey from biologist seduced by computers to a successful craftsman and maybe even entrepreneur.</p></div>
-      <div>
-        <p>&nbsp;</p>
-      </div>
-    
-      <h2 class="posttitle"><a href="/2010/12/22/HelloWorld.html">Well, Hello World.</a></h2>
-      <div class="postcontent"><p>The obligatory &#8220;Hello World&#8221; post.</p>
-<p>Blogging like a hacker using <a href="http://github.com/mojombo/jekyll">Jekyll</a> to generate static pages. Deployed under <a href="http://sinatrarb.com">Sinatra</a> and hosted on <a href="http://heroku.com">Heroku</a> .</p>
-<p>I have no idea how this will unfold, but that&#8217;s the fun part.</p>
-<p>Let&#8217;s test out the code highlighting feature.</p>
-<div class="highlight"><pre><code class="ruby"><span class="k">def</span> <span class="nf">HelloWorld</span>
-  <span class="nb">puts</span> <span class="s1">&#39;Well, Hello World!&#39;</span>
-<span class="k">end</span>
-</code></pre>
-</div></div>
       <div>
         <p>&nbsp;</p>
       </div>

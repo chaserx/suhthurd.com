@@ -4,13 +4,34 @@
  <title>Tom Preston-Werner</title>
  <link href="http://suhthurd.com/atom.xml" rel="self"/>
  <link href="http://suhthurd.com/"/>
- <updated>2011-03-04T16:46:50-05:00</updated>
+ <updated>2011-03-04T16:49:53-05:00</updated>
  <id>http://suhthurd.com/</id>
  <author>
    <name>Chase Southard</name>
    <email>chase@suhthurd.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Multiple Comparisions in R</title>
+   <link href="http://suhthurd.com/2011/03/04/Multiple-Comparisons-in-R.html"/>
+   <updated>2011-03-04T00:00:00-05:00</updated>
+   <id>http://suhthurd.com/2011/03/04/Multiple-Comparisons-in-R</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;ve been after this for quite some time&amp;#8230; how to determine a letter designation between groups using &lt;a href=&quot;http://www.r-project.org/&quot;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I ran across this package yesterday. Works well for single-factor data.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cran.r-project.org/web/packages/multcompView/&quot;&gt;multcompView&lt;/a&gt; &lt;a href=&quot;http://cran.r-project.org/web/packages/multcompView/multcompView.pdf&quot;&gt;&lt;span class=&quot;caps&quot;&gt;PDF&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;  multcompBoxplot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Response ~ Treatment&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; d&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  horizontal&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; compFn&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;TukeyHSD&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  sortFn&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;mean&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; decreasing&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  plotList&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;boxplot&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+  fig&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.75&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;
+  multcompTs&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;fig&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.85&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;
+  multcompLetters&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+  fig&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.87&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.97&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.03&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.98&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; fontsize&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  fontface&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bold&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&quot;http://suhthurd.com/images/lettersDesignations.png&quot; title=&quot;boxplot with letters!&quot; alt=&quot;boxplot with letters!&quot; /&gt;&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Courage</title>

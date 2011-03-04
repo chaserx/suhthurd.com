@@ -6,7 +6,6 @@ categories:
   - learning
   - hacking
   - R
-published: false
 ---
 
 I've been after this for quite some time... how to determine a letter designation between groups using "R":http://www.r-project.org/.

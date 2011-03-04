@@ -4,7 +4,7 @@
  <title>Tom Preston-Werner</title>
  <link href="http://suhthurd.com/atom.xml" rel="self"/>
  <link href="http://suhthurd.com/"/>
- <updated>2011-03-04T16:49:53-05:00</updated>
+ <updated>2011-03-04T16:52:57-05:00</updated>
  <id>http://suhthurd.com/</id>
  <author>
    <name>Chase Southard</name>
@@ -30,7 +30,7 @@
   fig&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.87&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.97&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.03&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.98&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; fontsize&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
   fontface&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bold&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&quot;http://suhthurd.com/images/lettersDesignations.png&quot; title=&quot;boxplot with letters!&quot; alt=&quot;boxplot with letters!&quot; /&gt;&lt;/p&gt;</content>
+&lt;/div&gt;&lt;p&gt;&lt;img src=&quot;http://suhthurd.com/images/letterDesignations.png&quot; title=&quot;boxplot with letters!&quot; alt=&quot;boxplot with letters!&quot; /&gt;&lt;/p&gt;</content>
  </entry>
  
  <entry>

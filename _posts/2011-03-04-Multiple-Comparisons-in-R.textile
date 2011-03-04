@@ -27,6 +27,6 @@ I ran across this package yesterday. Works well for single-factor data.
   fontface="bold") ) )
 {% endhighlight %}
 
-!http://suhthurd.com/images/lettersDesignations.png(boxplot with letters!)!
+!http://suhthurd.com/images/letterDesignations.png(boxplot with letters!)!
 
 
